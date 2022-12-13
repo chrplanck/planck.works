@@ -1,7 +1,7 @@
 import './globals.css';
-import { Noto_Serif_KR, Open_Sans } from '@next/font/google';
+import { Noto_Serif_HK, Open_Sans } from '@next/font/google';
 
-const notoSerifKR = Noto_Serif_KR({
+const notoSerifHK = Noto_Serif_HK({
   weight: '900',
   subsets: ['latin'],
   variable: '--font-noto-serif',
@@ -13,7 +13,7 @@ const openSans = Open_Sans({
   variable: '--font-open-sans',
 });
 
-const fontClassNames = `${notoSerifKR.variable} ${openSans.variable}`;
+const fontClassNames = `${notoSerifHK.variable} ${openSans.variable}`;
 
 export default function RootLayout({
   children,
