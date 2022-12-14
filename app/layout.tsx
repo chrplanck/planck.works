@@ -1,19 +1,17 @@
 import './globals.css';
-import { Noto_Serif_HK, Open_Sans } from '@next/font/google';
+import { Playfair_Display, Open_Sans } from '@next/font/google';
 
-const notoSerifHK = Noto_Serif_HK({
-  weight: '900',
+const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-noto-serif',
+  variable: '--font-playfair-display',
 });
 
 const openSans = Open_Sans({
-  weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-open-sans',
 });
 
-const fontClassNames = `${notoSerifHK.variable} ${openSans.variable}`;
+const fontClassNames = `${openSans.variable} ${playfairDisplay.variable}`;
 
 export default function RootLayout({
   children,

@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-open-sans)'],
-        serif: ['var(--font-noto-serif)'],
+        serif: ['var(--font-playfair-display)'],
       },
     },
   },

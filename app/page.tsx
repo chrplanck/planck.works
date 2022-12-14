@@ -5,8 +5,8 @@ export default function Home() {
     <div className="grid md:place-items-center h-screen">
       <div className="p-5 md:text-center">
         <h1
-          className="text-[44px] sm:text-[52px] md:text-[58px] lg:text-[76px]
-            text-orange font-serif tracking-tight leading-tight"
+          className="font-serif font-bold text-[44px] sm:text-[52px] md:text-[58px] lg:text-[76px]
+            text-orange leading-tight"
         >
           Christian Planck
           <em className="text-dark-grey ml-1">Works</em>
