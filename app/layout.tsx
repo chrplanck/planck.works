@@ -1,4 +1,5 @@
 import './globals.css';
+import { AnalyticsWrapper } from './components/analytics';
 import { Playfair_Display, Open_Sans } from '@next/font/google';
 
 const playfairDisplay = Playfair_Display({
@@ -21,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={fontClassNames}>
       <head />
-      <body className="bg-sand text-dark-grey antialiased">{children}</body>
+      <body className="bg-sand text-dark-grey antialiased">
+        {children}
+        <AnalyticsWrapper />
+      </body>
     </html>
   );
 }
