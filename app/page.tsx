@@ -3,7 +3,7 @@ import Button from './components/button';
 export default function Home() {
   return (
     <div className="grid md:place-items-center h-screen">
-      <div className="p-5 md:text-center">
+      <div className="p-5 md:text-center animate-fade-in">
         <h1
           className="font-serif font-bold text-[44px] sm:text-[52px] md:text-[58px] lg:text-[76px]
             text-orange leading-tight"
